@@ -1,6 +1,9 @@
 .container_menu-bar {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 30%;
+
     position: fixed;
     z-index: 999;
     background-color: aliceblue;
@@ -15,23 +18,7 @@
     align-items: center;
 }
 
-.menu-bar_item{
+.menu-bar_items{
     display: flex;
-    margin: auto;
-    align-items: center;
-}
-
-.menu-bar_item > ul {
-    display: flex;
-    gap: 1rem;
-}
-
-.menu-bar_item li, a{
-    color: black;
-
-}
-
-.menu-bar_item li > a:hover{
-    color: rgb(25, 25, 206);
-    font-weight: 600;
+    justify-content: center;
 }
