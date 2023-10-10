@@ -1,0 +1,15 @@
+.container_card-label{
+    position: absolute;
+    bottom: 3rem;
+    right: 0;
+}
+
+.card-label_content{
+    display: flex;
+    align-items: center;
+    background-color: #0d0d0d;
+    font-size: 12px;
+    font-weight: bold;
+    height: 1.5rem;
+    padding: 1rem 1rem;
+}
